@@ -6,11 +6,12 @@ InsertJ = hfst.regex('[..] -> j || [b | f | m | p | v] _ "^" M')
 
 ZNReplacement = hfst.regex('z n -> ž ņ ||  _ "^" M')
 DReplacement = hfst.regex('d -> ž ||  _ "^" M')
+TReplacement = hfst.regex('t -> š ||  _ "^" M')
 
 MCleanup = hfst.regex('M -> 0')
 Cleanup = hfst.regex('"^" -> 0')
 
-cascade = hfst.compose((generator, InsertJ, ZNReplacement, DReplacement, MCleanup, Cleanup))
+cascade = hfst.compose((generator, InsertJ, ZNReplacement, DReplacement, TReplacement, MCleanup, Cleanup))
 
 for noun in ["med", "al", "liet", "up", "zvaigzn", "cepur", "nakt", "aus", "ac", "ļaud"]:
     for number in ["Sg", "Pl"]:
