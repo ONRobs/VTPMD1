@@ -1,0 +1,60 @@
+Multichar_Symbols +N +Sg +Pl +Nom +Gen +Dat +Acc +Loc
+
+LEXICON Root						
+Noun ;
+
+LEXICON Noun
+
+med N3dekl;
+al N3dekl;
+liet N3dekl;
+up N5dekl;
+zvaigzn N5dekl;
+cepur N5dekl;
+nakt N6dekl;
+aus N6dekl;
+ac N6dekl;
+ļaud N6deklPl;
+
+LEXICON N3dekl					
++N+Sg+Nom:^us #;
++N+Sg+Gen:^us #;
++N+Sg+Dat:^um #;
++N+Sg+Acc:^u #;
++N+Sg+Loc:^ū #;
++N+Pl+Nom:^i #;
++N+Pl+Gen:^u #;
++N+Pl+Dat:^iem #;
++N+Pl+Acc:^us #;
++N+Pl+Loc:^os #;
+
+LEXICON N5dekl					
++N+Sg+Nom:^e #;
++N+Sg+Gen:^es #;
++N+Sg+Dat:^ei #;
++N+Sg+Acc:^i #;
++N+Sg+Loc:^ē #;
++N+Pl+Nom:^es #;
++N+Pl+Gen:^Mu #;
++N+Pl+Dat:^ēm #;
++N+Pl+Acc:^es #;
++N+Pl+Loc:^ēs #;
+
+LEXICON N6dekl					
++N+Sg+Nom:^s #;
++N+Sg+Gen:^s #;
++N+Sg+Dat:^ij #;
++N+Sg+Acc:^i #;
++N+Sg+Loc:^ī #;
++N+Pl+Nom:^is #;
++N+Pl+Gen:^Mu #;
++N+Pl+Dat:^īm #;
++N+Pl+Acc:^is #;
++N+Pl+Loc:^īs #;
+
+LEXICON N6deklPl					
++N+Pl+Nom:^is #;
++N+Pl+Gen:^Mu #;
++N+Pl+Dat:^īm #;
++N+Pl+Acc:^is #;
++N+Pl+Loc:^īs #;
